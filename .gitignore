@@ -1,0 +1,28 @@
+# Documents de travail et outils locaux
+/docs/
+/.agents/
+/.codex/
+/.presentation-build/
+/skills-lock.json
+/tp_steps.md
+/template/
+/screens/
+/preuves/
+
+# Configuration locale et identifiants
+/env.list.txt
+.env
+.env.*
+/k8s/01-secrets.yaml
+/scripts/test-api.ps1
+
+# Livrable final uniquement
+/output/*
+!/output/Mohamed_AASSOU_TP_Kubernetes_Pedagogique.pptx
+
+# Fichiers générés
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
